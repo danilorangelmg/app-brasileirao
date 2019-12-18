@@ -26,5 +26,5 @@
 - :soccer(feature) -> Dynamic Feature(onDemand)
 - :domain -> Save and coordinates features models
 - :networkService -> Network(Rest) engine, coordinates retrofit calls
-- :repositorie: interface and coordinates service calls from features
+- :repository: interface and coordinates service calls from features
 - :databaseService ->  Database Engine(Not Implement)
