@@ -10,7 +10,6 @@
 - Retrofit and coroutines are used to make requests
 - For coordination of the flow of screens is used Android Navigation
 - Injection dependency is done with the Koin Framework
-- This app use TMDB api(https://developers.themoviedb.org/3)
 
 ### Tools and Technologies
     - Koin -> Dependency injection
