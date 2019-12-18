@@ -23,7 +23,7 @@
 ### Modules
 
 - :app -> Coordinates the features
-- :movieFeature(feature) -> Dynamic Feature(onDemand)
+- :soccer(feature) -> Dynamic Feature(onDemand)
 - :domain -> Save and coordinates features models
 - :networkService -> Network(Rest) engine, coordinates retrofit calls
 - :repositorie: interface and coordinates service calls from features
