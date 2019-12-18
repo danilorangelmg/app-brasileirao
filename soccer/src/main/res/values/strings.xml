@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ESoccer</string>
+    <string name="title_score">Tabela</string>
+    <string name="score_fragment_title">Classificação Brasileirão Série A</string>
+    <string name="field_value">%s</string>
+    <string name="try_again">Tentar novamente</string>
+</resources>

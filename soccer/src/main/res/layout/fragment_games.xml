@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <include
+            android:id="@+id/progressView"
+            layout="@layout/fragment_home_shimmer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:visibility="gone"/>
+
+    <LinearLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="@dimen/shield_size_width"
+                    android:layout_height="@dimen/shield_size_height"
+                    android:layout_marginLeft="@dimen/margin_normal"
+                    android:contentDescription="poster"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_arrow_left"/>
+
+            <TextView
+                    android:id="@+id/tvTitle"
+                    style="@style/SpotlightMediumTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:paddingBottom="@dimen/padding_normal"
+                    android:text="Rodada 1"/>
+
+            <ImageView
+                    android:id="@+id/ivNext"
+                    android:layout_width="@dimen/shield_size_width"
+                    android:layout_height="@dimen/shield_size_height"
+                    android:layout_marginRight="@dimen/margin_normal"
+                    android:contentDescription="poster"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_arrow_right"/>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTableList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_soccer_table"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+

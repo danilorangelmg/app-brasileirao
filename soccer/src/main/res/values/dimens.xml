@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shield_size_width">55dp</dimen>
+    <dimen name="shield_size_height">93dp</dimen>
+    <dimen name="image_list_size">300dp</dimen>
+
+    <dimen name="margin_min">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+
+    <dimen name="padding_min">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+
+    <dimen name="big_image">120dp</dimen>
+</resources>

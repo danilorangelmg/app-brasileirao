@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TMovies</string>
+    <string name="dialog_error_title">Atenção</string>
+    <string name="dialog_error_try_again_button">Tentar novamente</string>
+</resources>
