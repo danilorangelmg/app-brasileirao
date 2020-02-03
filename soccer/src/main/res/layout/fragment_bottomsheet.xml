@@ -6,7 +6,7 @@
 
     <include
             android:id="@+id/progressView"
-            layout="@layout/fragment_bottomsheet_shimmer"
+            layout="@layout/fragment_home_shimmer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:visibility="gone" />

@@ -47,11 +47,11 @@ class SoccerActivity: AppCompatActivity() {
             supportActionBar?.setDisplayHomeAsUpEnabled(it)
         })
 
-//        ivGames.setOnClickListener {
-//            getNavController().navigate(R.id.fragmentGame)
-//        }
+        ivGames.setOnClickListener {
+            getNavController().navigate(R.id.fragmentGame)
+        }
 
-          whenClicking(ivGames){ println("Before >>>>>") } then { println("After") }
+//          whenClicking(ivGames){ println("Before >>>>>") } then { println("After") }
     }
 
     private fun getNavController(): NavController {

@@ -16,7 +16,7 @@ import br.com.soccer.feature.adapter.GameDescriptionAdapter
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.fragment_bottomsheet.*
-import kotlinx.android.synthetic.main.fragment_bottomsheet.progressView
+//import kotlinx.android.synthetic.main.fragment_bottomsheet.progressView
 import kotlinx.android.synthetic.main.fragment_bottomsheet.rootView
 import kotlinx.android.synthetic.main.item_game.view.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -36,7 +36,7 @@ class GameBottomSheetFragment : BottomSheetDialogFragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_bottomsheet, container, false)
+         return inflater.inflate(R.layout.fragment_bottomsheet, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
